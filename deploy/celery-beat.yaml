@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: celery-beat
+  labels:
+    app: celery-beat
+spec:
+  containers:
+  - name: celery-beat
+    image: nikso/celery-beat:latest
+    env:
+    - name: ENV_VARIABLE
+      value: value
