@@ -55,4 +55,4 @@ if after running minikube service django doesnt work like 400 error do this
 
 ### create superuser
 1. ```kubectl get pods```
-2. ```kubectl exec -it django-565d544d66-hvh8d -c app -- python manage.py createsuperuser```
+2. ```kubectl exec -it <pod id> -c app -- python manage.py createsuperuser```
