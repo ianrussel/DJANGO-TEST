@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: celery-worker
-    image: orchest/celery-worker:v2023.04.2
+    image: vykintasmak/celery-worker-ntb:latest
     env:
     - name: ENV_VARIABLE
       value: value
